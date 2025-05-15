@@ -9,3 +9,10 @@ h1 {
   margin-top: 80px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+img {
+  background-color: white;
+  border-radius: 40%;
+  width: 100%;
+  max-width: 300px;
+}
