@@ -26,3 +26,6 @@ function getHumanChoice() {
 
 humanScore = 0;
 computerScore = 0;
+
+// Single round logic
+function playRound(humanChoice, computerChoice) {}
