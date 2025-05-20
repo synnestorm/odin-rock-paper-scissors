@@ -1,15 +1,16 @@
 // Let's play rock, paper, scissors in the console
+alert("Let us play a game. Are you ready?");
 
 // Written logic to get the computer choice
 function getComputerChoice() {
-  let computerChoice = Math.floor(Math.random() * 3) + 1;
-  if (computerChoice === 1) {
+  let computerChoice = Math.floor(Math.random() * 3);
+  if (computerChoice === 0) {
     console.log("Rock");
     return;
-  } else if (computerChoice === 2) {
+  } else if (computerChoice === 1) {
     console.log("Paper");
     return;
-  } else if (computerChoice === 3) {
+  } else if (computerChoice === 2) {
     console.log("Scissor");
     return computerChoice;
   }
