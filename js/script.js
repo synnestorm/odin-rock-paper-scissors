@@ -6,6 +6,9 @@ function getComputerChoice() {
   if (computerChoice === 1) {
     console.log("Rock");
     return;
+  } else if (computerChoice === 2) {
+    console.log("Paper");
+    return;
   }
 }
 
