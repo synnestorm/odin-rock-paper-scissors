@@ -1,4 +1,4 @@
-// Let's play rock, paper, scissors in the console
+/* Let's play rock, paper, scissors in the console
 alert("Let us play a game. Are you ready?");
 
 // Written logic to get the computer choice
@@ -29,4 +29,4 @@ humanScore = 0;
 computerScore = 0;
 
 // Single round logic
-function playRound(humanChoice, computerChoice) {}
+function playRound(humanChoice, computerChoice) {} */
