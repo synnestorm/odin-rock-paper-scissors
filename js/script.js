@@ -34,6 +34,8 @@ function getComputerChoice() {
   }
 }
 
+// getting the computer choice written when pushing the computer button
+
 function displayComputerChoice() {
   const computerChoice = getComputerChoice();
   let getComputerChoiceWritten = document.getElementById("computer-choice");
