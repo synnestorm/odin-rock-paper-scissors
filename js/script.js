@@ -21,15 +21,21 @@ function scissorHandClicked() {
 // creating the computer choices
 
 function getComputerChoice() {
-  let computerChoice = Math.floor(Math.random() * 3);
-  if (computerChoice === 0) {
+  const computerChoice = Math.floor(Math.random() * 3) + 1; // generates a random number between 1-3
+  if (computerChoice === 1) {
     console.log("Rock");
-    return;
-  } else if (computerChoice === 1) {
-    console.log("Paper");
-    return;
+    return "Rock";
   } else if (computerChoice === 2) {
-    console.log("Scissor");
-    return computerChoice;
+    console.log("Paper");
+    return "Paper";
+  } else if (computerChoice === 3) {
+    console.log("Scissors");
+    return "Scissors";
   }
+}
+
+function displayComputerChoice() {
+  const computerChoice = getComputerChoice();
+  let getComputerChoiceWritten = document.getElementById("computer-choice");
+  getComputerChoiceWritten.innerText = computerChoice;
 }
