@@ -19,3 +19,17 @@ function scissorHandClicked() {
 }
 
 // creating the computer choices
+
+function getComputerChoice() {
+  let computerChoice = Math.floor(Math.random() * 3);
+  if (computerChoice === 0) {
+    console.log("Rock");
+    return;
+  } else if (computerChoice === 1) {
+    console.log("Paper");
+    return;
+  } else if (computerChoice === 2) {
+    console.log("Scissor");
+    return computerChoice;
+  }
+}
