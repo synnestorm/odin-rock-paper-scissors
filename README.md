@@ -4,8 +4,8 @@ This is my first project using JavaScript. The project was initially supposed to
 
 Rules:
 
-Rock beats Scissor
-Paper beats Rock
-Scissor beats Paper
+- Rock beats Scissor
+- Paper beats Rock
+- Scissor beats Paper
 
 Let me know if anything could be improved or changed.. or some advice would be appriciated.
