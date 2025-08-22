@@ -1,45 +1,21 @@
-alert("Let us play a game. Are you ready?");
-
-// grabbing the images
-let rockHand = document.getElementById("rock-hand");
-let paperHand = document.getElementById("paper-hand");
-let scissorHand = document.getElementById("scissor-hand");
+// we are playing the game rock paper scissors
+// creating the human variables and functions
 
 let humanChoice = document.getElementById("human-choice");
+let rockHand = "Rock";
+let paperHand = "Paper";
+let scissorHand = "Scissor";
 
-function rock() {
-  humanChoice.innerText = "Rock";
+function rockHandClicked() {
+  humanChoice.innerText = rockHand;
 }
 
-/* Let's play rock, paper, scissors in the console
-
-
-// Written logic to get the computer choice
-function getComputerChoice() {
-  let computerChoice = Math.floor(Math.random() * 3);
-  if (computerChoice === 0) {
-    console.log("Rock");
-    return;
-  } else if (computerChoice === 1) {
-    console.log("Paper");
-    return;
-  } else if (computerChoice === 2) {
-    console.log("Scissor");
-    return computerChoice;
-  }
+function paperHandClicked() {
+  humanChoice.innerText = paperHand;
 }
 
-// Written logic to get the human choice
-function getHumanChoice() {
-  let humanChoice = prompt("Choose: Rock, Paper or Scissors", "");
-  console.log(`You chose: ${humanChoice}`);
-  return humanChoice;
+function scissorHandClicked() {
+  humanChoice.innerText = scissorHand;
 }
 
-// Variables
-
-humanScore = 0;
-computerScore = 0;
-
-// Single round logic
-function playRound(humanChoice, computerChoice) {} */
+// creating the computer choices
